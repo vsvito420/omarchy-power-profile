@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "vsvito.power-profile",
+  "name": "Power Profile",
+  "version": "1.0.0",
+  "author": "vsvito",
+  "description": "Switch between power saver, balanced and performance by scrolling over a gauge in the bar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "PowerProfile.qml"
+  },
+  "barWidget": {
+    "displayName": "Power Profile",
+    "description": "Power profile gauge, scroll to change",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
